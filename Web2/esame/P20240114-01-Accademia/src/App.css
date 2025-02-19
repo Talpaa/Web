@@ -1,0 +1,60 @@
+/* App.css */
+
+/* Stile generale per il contenitore */
+div {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+/* Stile per il titolo */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Stile della tabella */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  color: black;
+}
+
+/* Stile per le intestazioni della tabella */
+th {
+  background-color: #4CAF50;
+  color: black;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Stile per le celle della tabella */
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Stile per le righe pari della tabella */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Stile per il messaggio di errore */
+p {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Stile per il messaggio di caricamento */
+p.loading {
+  font-size: 18px;
+  text-align: center;
+  color: #007bff;
+}
